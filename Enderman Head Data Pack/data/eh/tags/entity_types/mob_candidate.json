@@ -1,0 +1,14 @@
+{
+	"values": [
+    "minecraft:skeleton",
+    "minecraft:wither_skeleton",
+    "minecraft:piglin",
+    "minecraft:piglin_brute",
+    "minecraft:zombie",
+    "minecraft:husk",
+    "minecraft:drowned",
+    "minecraft:zombie_villager",
+    "minecraft:armor_stand",
+    "minecraft:player"
+	]
+}

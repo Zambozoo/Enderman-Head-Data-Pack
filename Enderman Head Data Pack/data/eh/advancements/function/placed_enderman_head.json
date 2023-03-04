@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:player_head",
+              "minecraft:player_wall_head"
+            ],
+            "nbt": "{SkullOwner:{Id:[I;1850552016,99109209,-1335040439,-653184183]}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "eh:entity/player/place/enderman_head"
+  }
+}

@@ -1,0 +1,323 @@
+{
+	"parent": "eh:brain_power",
+    "display": {
+        "title": {
+            "text": "Head Case"
+        },
+        "description": {
+            "text": "Spot one of each possible mob as they wear an Enderman Head"
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+             "nbt": "{SkullOwner:{Id:[I;1658453630,1781350791,-1964493527,-2123315747],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmJjZjNmNTc4NzE5NmQyNTZjMTA0ZmZmYWU4ZTUyNjUyNDIyMjJlMjEzOGE1N2ExNjY2YzE1YjVmNmM4N2I5OCJ9fX0=\"}]}}}"
+		},
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+  "criteria": {
+    "zombie": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+			"type": "player",
+            "looking_at": {
+              "type": "minecraft:zombie",
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:player_head"
+                  ],
+                  "nbt": "{SkullOwner:{Id:[I;1850552016,99109209,-1335040439,-653184183]}}"
+                }
+              },
+			"distance": {
+				"absolute": {
+					"max":64
+				}
+			}
+            }
+          }
+        }
+      }
+    },
+    "zombie_villager": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+			"type": "player",
+            "looking_at": {
+              "type": "minecraft:zombie_villager",
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:player_head"
+                  ],
+                  "nbt": "{SkullOwner:{Id:[I;1850552016,99109209,-1335040439,-653184183]}}"
+                }
+              },
+			"distance": {
+				"absolute": {
+					"max":64
+				}
+			}
+            }
+          }
+        }
+      }
+    },
+    "husk": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+			"type": "player",
+            "looking_at": {
+              "type": "minecraft:husk",
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:player_head"
+                  ],
+                  "nbt": "{SkullOwner:{Id:[I;1850552016,99109209,-1335040439,-653184183]}}"
+                }
+              },
+			"distance": {
+				"absolute": {
+					"max":64
+				}
+			}
+            }
+          }
+        }
+      }
+    },
+    "skeleton": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+			"type": "player",
+            "looking_at": {
+              "type": "minecraft:skeleton",
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:player_head"
+                  ],
+                  "nbt": "{SkullOwner:{Id:[I;1850552016,99109209,-1335040439,-653184183]}}"
+                }
+              },
+			"distance": {
+				"absolute": {
+					"max":64
+				}
+			}
+            }
+          }
+        }
+      }
+    },
+    "stray": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+			"type": "player",
+            "looking_at": {
+              "type": "minecraft:stray",
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:player_head"
+                  ],
+                  "nbt": "{SkullOwner:{Id:[I;1850552016,99109209,-1335040439,-653184183]}}"
+                }
+              },
+			"distance": {
+				"absolute": {
+					"max":64
+				}
+			}
+            }
+          }
+        }
+      }
+    },
+    "piglin": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+			"type": "player",
+            "looking_at": {
+              "type": "minecraft:piglin",
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:player_head"
+                  ],
+                  "nbt": "{SkullOwner:{Id:[I;1850552016,99109209,-1335040439,-653184183]}}"
+                }
+              },
+			"distance": {
+				"absolute": {
+					"max":64
+				}
+			}
+            }
+          }
+        }
+      }
+    },
+    "drowned": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+			"type": "player",
+            "looking_at": {
+              "type": "minecraft:drowned",
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:player_head"
+                  ],
+                  "nbt": "{SkullOwner:{Id:[I;1850552016,99109209,-1335040439,-653184183]}}"
+                }
+              },
+			"distance": {
+				"absolute": {
+					"max":64
+				}
+			}
+            }
+          }
+        }
+      }
+    },
+    "zombified_piglin": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+			"type": "player",
+            "looking_at": {
+              "type": "minecraft:zombified_piglin",
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:player_head"
+                  ],
+                  "nbt": "{SkullOwner:{Id:[I;1850552016,99109209,-1335040439,-653184183]}}"
+                }
+              },
+			"distance": {
+				"absolute": {
+					"max":64
+				}
+			}
+            }
+          }
+        }
+      }
+    },
+    "wither_skeleton": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+			"type": "player",
+            "looking_at": {
+              "type": "minecraft:wither_skeleton",
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:player_head"
+                  ],
+                  "nbt": "{SkullOwner:{Id:[I;1850552016,99109209,-1335040439,-653184183]}}"
+                }
+              },
+			"distance": {
+				"absolute": {
+					"max":64
+				}
+			}
+            }
+          }
+        }
+      }
+    },
+    "piglin_brute": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+			"type": "player",
+            "looking_at": {
+              "type": "minecraft:piglin_brute",
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:player_head"
+                  ],
+                  "nbt": "{SkullOwner:{Id:[I;1850552016,99109209,-1335040439,-653184183]}}"
+                }
+              },
+			"distance": {
+				"absolute": {
+					"max":64
+				}
+			}
+            }
+          }
+        }
+      }
+    },
+    "villager": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+			"type": "player",
+            "looking_at": {
+              "type": "minecraft:villager",
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:player_head"
+                  ],
+                  "nbt": "{SkullOwner:{Id:[I;1850552016,99109209,-1335040439,-653184183]}}"
+                }
+              },
+			"distance": {
+				"absolute": {
+					"max":64
+				}
+			}
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["zombie"],
+    ["zombie_villager"],
+    ["husk"],
+    ["skeleton"],
+    ["stray"],
+    ["piglin"],
+    ["drowned"],
+    ["zombified_piglin"],
+    ["wither_skeleton"],
+    ["piglin_brute"],
+    ["villager"]
+  ],
+  "rewards": {
+    "experience": 500
+  }
+}

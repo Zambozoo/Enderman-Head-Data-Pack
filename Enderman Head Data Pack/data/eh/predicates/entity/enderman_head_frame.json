@@ -1,0 +1,8 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:item_frame",
+    "nbt": "{Item:{tag:{SkullOwner:{Id:[I;1850552016,99109209,-1335040439,-653184183]},display:{Name:'{\"text\":\"Enderman Head\",\"italic\":false}'}}}}"
+  }
+}

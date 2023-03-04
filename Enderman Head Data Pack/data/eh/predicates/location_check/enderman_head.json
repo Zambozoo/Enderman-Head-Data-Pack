@@ -1,0 +1,23 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "tag": "eh:player_head",
+          "nbt": "{SkullOwner:{Id: [I; 1850552016, 99109209, -1335040439, -653184183]}}"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "tag": "eh:player_head",
+          "nbt": "{SkullOwner:{Id:[I;1658453630,1781350791,-1964493527,-2123315747]}}"
+        }
+      }
+    }
+  ]
+}
