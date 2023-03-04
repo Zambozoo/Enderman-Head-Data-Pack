@@ -1,7 +1,7 @@
 # Enderman-Head-Data-Pack
 A Minecraft Data Pack that adds Enderman Heads as a new redstone component and wearable.
 
-# New Content
+## New Content
 Introcues a new redstone component and wearable, the Enderman Head.
 * Dropped by Endermen with the same behavior as Wither Skeletons.
 * Produces a redstone output when looked at by players up to 64 blocks away.
