@@ -1,6 +1,15 @@
 # Enderman-Head-Data-Pack
 A Minecraft Data Pack that adds Enderman Heads as a new redstone component and wearable.
 
+## Installation
+Go to the [releases page](https://github.com/Zambozoo/Enderman-Head-Packs/releases/) and download the following files.
+* `Enderman_Head_Data_Pack.zip`
+  * Place in your `.minecraft/saves/<World_Name>/datapacks` folder.
+* `Enderman_Head_Resource_Pack.zip`
+  * Place the resource pack zip in your `.minecraft/resourcepacks/` folder.
+  
+Enable the resource pack, open up the world, and enjoy!
+
 ## New Content
 Introcues a new redstone component and wearable, the Enderman Head.
 * Dropped by Endermen with the same behavior as Wither Skeletons.
